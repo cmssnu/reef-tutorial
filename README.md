@@ -75,9 +75,9 @@ Run the application either on local runtime, or YARN runtime, using the `run.sh`
     ./run.sh -input /user/username/sample -maxIter 20
     ```
     
-* Give the number of desired splits you want to read your data in, by the `-splitNum` option (default 4 spilts). However, your request may be neglected if the input data is too big (in this case REEF will read your data in more splits).
+* Give the number of desired splits you want to read your data in, by the `-split` option (default 4 spilts). However, your request may be neglected if the input data is too big (in this case REEF will read your data in more splits).
     ```
-    ./run.sh -input /user/username/sample -splitNum 4
+    ./run.sh -input /user/username/sample -split 4
     ```
 
 ## How to contribute
