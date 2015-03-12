@@ -40,7 +40,7 @@ If your data files are too big and are rather hard to modify, you can always def
     ```
     hdfs dfs -put filename
     ```
-If you have another way to load your data into the HDFS, or if you're planning to run the code on local rutime, then this step can be skipped.
+If you have another way to load your data into the HDFS, or if you're planning to run the code on local runtime, then this step can be skipped.
 
 #### How to run the code
 Run the application either on local runtime, or YARN runtime, using the `run.sh` script provided in the `bin` folder.
